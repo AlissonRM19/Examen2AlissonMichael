@@ -39,7 +39,7 @@ public class Test1 {
     @Test
     public void testEncuentraElementoPresente() {
         List<Integer> lista = Arrays.asList(1, 2, 3, 4, 5);
-        assertTrue(Calculadora.Encuentra(lista, 7)); // El elemento 3 está en la lista
+        assertTrue(Calculadora.Encuentra(lista, 3)); // El elemento 3 está en la lista
     }
  
 
