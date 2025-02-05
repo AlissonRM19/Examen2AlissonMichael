@@ -46,9 +46,8 @@ jobs:
     - name: Run unit tests with Gradle
       run: ./gradlew test
 
-    - name: Run custom test task (if applicable)
+    - name: Unit Test
       run: ./gradlew Test1
-      continue-on-error: true # Para evitar que falle si test1 no existe
 
     - name: Android Test Report
       uses: asadmansr/android-test-report-action@v1.2.0
