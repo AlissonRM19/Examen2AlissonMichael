@@ -50,7 +50,7 @@ jobs:
       run: gradle test
 
     - name: Unit Test
-      run: gradle Test1
+      run: gradle testDebugUnitTest
 
     - name: Android Test Report
       uses: asadmansr/android-test-report-action@v1.2.0
