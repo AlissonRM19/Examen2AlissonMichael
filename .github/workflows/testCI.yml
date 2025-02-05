@@ -44,7 +44,7 @@ jobs:
       run: chmod +x gradlew
 
     - name: Run unit tests with Gradle
-      run: ./gradlew Test1
+      run: ./gradlew test
 
     - name: Run custom test task (if applicable)
       run: ./gradlew Test1
