@@ -6,6 +6,9 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Test1 {
     @Test
     public void testConvertirNumero() {
@@ -33,5 +36,12 @@ public class Test1 {
         assertTrue(Calculadora.convertirADestino(10, 3).equals("a")); // Decimal a hexadecimal
 
     }
+    @Test
+    public void testEncuentraElementoPresente() {
+        List<Integer> lista = Arrays.asList(1, 2, 3, 4, 5);
+        assertTrue(Calculadora.Encuentra(lista, 3)); // El elemento 3 está en la lista
+    }
+ 
+
 }
 
