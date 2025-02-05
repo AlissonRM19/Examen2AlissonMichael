@@ -44,10 +44,10 @@ jobs:
       run: chmod +x gradlew
 
     - name: Run unit tests with Gradle
-      run: ./gradlew test
+      run: ./gradlew Test1
 
     - name: Run custom test task (if applicable)
-      run: ./gradlew test1
+      run: ./gradlew Test1
       continue-on-error: true # Para evitar que falle si test1 no existe
 
     - name: Android Test Report
